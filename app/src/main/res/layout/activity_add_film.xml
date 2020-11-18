@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F8ECE0"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/lblInputTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/title_input"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/inputTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:autofillHints="@string/title_input"
+        android:hint="@string/title_input"
+        android:inputType="textVisiblePassword" />
+
+    <TextView
+        android:id="@+id/lblInputYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/year_input"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/inputYear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:autofillHints="@string/year_input"
+        android:hint="@string/year_input"
+        android:inputType="textVisiblePassword" />
+
+    <TextView
+        android:id="@+id/lblInputType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/type"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/inputType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:autofillHints="@string/type"
+        android:fontFamily="sans-serif"
+        android:hint="@string/type"
+        android:inputType="textVisiblePassword" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:background="#F4A460"
+        android:onClick="onClickAdd"
+        android:text="@string/add_button" />
+
+</LinearLayout>

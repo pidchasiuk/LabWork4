@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">LabWork4</string>
+    <string name="list_is_empty">List is Empty</string>
+    <string name="search">Search&#8230;</string>
+    <string name="poster">Poster</string>
+    <string name="add_button">Add Film</string>
+    <string name="title_input">Input Tittle</string>
+    <string name="year_input">Input Year</string>
+    <string name="type">Input Type</string>
+    <string name="searchBtn">Search</string>
+    <string name="title">Title: </string>
+    <string name="year">Year: </string>
+    <string name="genre">Genre: </string>
+    <string name="director">Director: </string>
+    <string name="actors">Actors:</string>
+    <string name="country">Country:</string>
+    <string name="lang">Language:</string>
+    <string name="prod">Production:</string>
+    <string name="release">Release:</string>
+    <string name="runtime">Runtime:</string>
+    <string name="awards">Awards:</string>
+    <string name="rating">Rating:</string>
+    <string name="plot">Plot:</string>
+    <string name="delete">Delete from list</string>
+    <string name="about">About film</string>
+</resources>
